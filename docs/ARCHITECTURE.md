@@ -1,6 +1,6 @@
 # MemTransformer Architecture
 
-MiniMem defines a MemTransformer architecture.
+MemTransformer defines a MemTransformer architecture.
 
 It is not a chatbot.  
 It is not a production LLM.  

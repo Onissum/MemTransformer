@@ -1,5 +1,5 @@
 import torch
-from minimem import MemTransformerConfig, create_memtransformer
+from memtransformer import MemTransformerConfig, create_memtransformer
 
 
 def main():

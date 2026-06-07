@@ -1,6 +1,6 @@
 # Final Release v0.1.0-alpha
 
-This release freezes the architecture API of MiniMem as a MemTransformer reference implementation.
+This release freezes the architecture API of MemTransformer as a MemTransformer reference implementation.
 
 It defines:
 

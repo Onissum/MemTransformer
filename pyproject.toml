@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "minimem"
+name = "memtransformer"
 version = "0.1.0a0"
 description = "Reference implementation of the MemTransformer architecture with native memory injection."
 readme = "README.md"
@@ -13,4 +13,4 @@ license = { text = "MIT" }
 dependencies = ["torch>=2.0"]
 
 [tool.setuptools.packages.find]
-include = ["minimem*"]
+include = ["memtransformer*"]

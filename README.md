@@ -1,8 +1,8 @@
-# MiniMem Transformer Lab
+# MemTransformer
 
-**MiniMem is not a chatbot.**
+**MemTransformer is not a chatbot.**
 
-MiniMem is a reference implementation of the **MemTransformer architecture**:
+MemTransformer is a reference implementation of the **MemTransformer architecture**:
 a Transformer variant designed to integrate retrieved memories into the model's internal residual stream.
 
 It is not RAG.  
@@ -35,7 +35,7 @@ pip install -e .
 
 ```python
 import torch
-from minimem import MemTransformerConfig, create_memtransformer
+from memtransformer import MemTransformerConfig, create_memtransformer
 
 config = MemTransformerConfig(
     vocab_size=6000,

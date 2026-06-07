@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimem"
+version = "0.1.0a0"
+description = "Reference implementation of the MemTransformer architecture with native memory injection."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Luca" }]
+license = { text = "MIT" }
+dependencies = ["torch>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["minimem*"]
